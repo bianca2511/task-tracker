@@ -61,7 +61,7 @@ const List: React.FC = () => {
       </div>
       <div>
         {cards.map((card) => (
-          <Card key={card.id} card={card} />
+          <Card key={card.title} card={card} />
         ))}
       </div>
     </div>
