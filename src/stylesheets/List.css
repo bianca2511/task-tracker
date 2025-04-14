@@ -27,6 +27,13 @@
   margin: 1em;
 }
 
+.input-description {
+  resize:both;
+  overflow:visible;
+  min-height: 2em;
+  line-height: 1.5;
+}
+
 .input-date {
   max-width: 6em;
 }

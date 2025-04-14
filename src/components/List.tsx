@@ -40,9 +40,9 @@ const List: React.FC = () => {
             value={title}
             onChange={(e) => setTitle(e.target.value)}
           />
-          <input
+          <textarea
             className="input-description"
-            type="text"
+            // type="text"
             placeholder="Task description"
             value={description}
             onChange={(e) => setDescription(e.target.value)}
